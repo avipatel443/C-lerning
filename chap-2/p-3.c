@@ -9,10 +9,15 @@ void main()
 
 {
 
-int b;
+int n;
 
 float a;
 
+thepriceofanitemindecimalform(n);
+}
+
+void thepriceofanitemindecimalform(int n) {
+	int a,b;
 a=15.95;
 
 b=100*a;
