@@ -8,17 +8,26 @@ divides the first number by the second and display the result along with the num
 void main()
 
 {
+	int n;
 
 	float  number1, number2, number3;
 
-	printf("Enter the value of number1 and number2\n");
+	dividesthefirstnumberbythesecondanddisplaytheresult(n);
 
-	scanf("%f %f",&number1,&number2);
+}
+void dividesthefirstnumberbythesecondanddisplaytheresult(int n) {
+}
 
-	number3=number1/number2;
+float  number1, number2, number3;
 
-	printf("%f/%f=%f",number1,number2,number3);
+printf("/nEnter the value of number1 and number2");
 
-	getch();
+scanf("%f %f",&number1,&number2);
+
+number3=number1/number2;
+
+printf("%f/%f=%f",number1,number2,number3);
+
+getch();
 }
 

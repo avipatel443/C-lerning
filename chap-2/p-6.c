@@ -10,9 +10,17 @@
 
 #include<conio.h>
 
-void main ()
+void main()
 
 {
+	int n;
+	
+	float Rice,Sugar;
+	
+  aprogramtogetthesevaluesfromtheuseranddisplaytheprices(n);
+  
+}
+ void aprogramtogetthesevaluesfromtheuseranddisplaytheprices(int n) {
 
 	float Rice,Sugar;
 
