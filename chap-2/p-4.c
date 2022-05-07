@@ -5,7 +5,13 @@
 #include<conio.h>
 
 void main()
+{
+	int n;
+	
+	printstheevennumbersfrom1to100(n);
+}
 
+void printstheevennumbersfrom1to100(int n)
 {
 
 	int i;
