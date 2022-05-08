@@ -3,14 +3,23 @@
 #include<stdio.h>
 
 #include<conio.h>
-
+void PrintTheEvenNumbers(int start,int end);
 void main()
-
 {
+	int start,end;
+	printf("\nEnter start number\n");
+	scanf("%d",&start);
+	printf("\nEnter end number\n");
+	scanf("%d",&end);
+	
+	PrintTheEvenNumbers(start,end);
+	
+}
 
+void PrintTheEvenNumbers(int start,int end)
+{
 	int i;
-
-	for(i=1; i<=100; i++)
+	for(i=start; i<=end; i++)
 
 	{
 
