@@ -7,20 +7,21 @@ Frequency= sqrt((1/LC)-(R*R)/(4*C*C))
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
-void ToCalculateTheFrequency(int Freq,int Temp1,int Temp2);
+void ToCalculateTheFrequency(int L,int R,int C)
+{
+float Freq,Temp1,Temp2;
+Temp1= (1/(L*C));
+Temp2= ((R*R)/(4*C*C));
+Freq= sqrt(Temp1-Temp2);
+printf("The Frequency is : %f\n",Freq);
+}
+
 void main()
 {
 int L,R,C;
 printf("Enter Inductance, Resistance, Capacitannce \n");
 scanf("%d %d %d",&L,&R,&C);
-ToCalculateTheFrequency(Freq,Temp1,Temp2);
+ToCalculateTheFrequency(L,R,C);
 getch();
 }
-void ToCalculateTheFrequency(int Freq,int Temp1,int Temp2)
-{
-int L,R,C;
-Temp1= (1/(L*C));
-Temp2= ((R*R)/(4*C*C));
-Freq= sqrt(Temp1-Temp2);
-printf("The Frequency is : %lf\n",Freq);
-}
+
